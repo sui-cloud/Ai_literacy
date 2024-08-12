@@ -35,7 +35,7 @@ if user_pw=="1234" and user_id=="abc":
         
      mean  =  st.radio("메뉴선택", ["우","수", "민"],index=None)
     st.write("mean")
-if mean=="우":
+    if mean=="우":
         https://cafe.naver.com/culturebloom/2313121
     elif "수":
         st.image("갈치한상차림.jpg")       
