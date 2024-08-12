@@ -8,7 +8,7 @@ def main_food():
 
     menu_number = st.radio("메뉴선택", ["1:한식","2:패스트푸드", "3:분식"],index=None)
     st.write("추천 맛집 종류예요: ")
-    st.image("공복음식.jpg")
+    st.image("공복음식.jpg",width=250)
     # st.write("1. 한식")
     # st.write("2. 패스트푸드")
     # st.write("3. 분식")
