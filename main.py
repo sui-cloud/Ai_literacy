@@ -33,7 +33,8 @@ if user_pw=="1234" and user_id=="abc":
         st.write("민: 민낯으로 인사드립니다. 수이의 첫 웹입니다. 만나서 반가워요")    
         st.image("초록머리앤.jpg")    
         
- mean  =  st.radio("메뉴선택", ["우","수", "민"],index=None)
+     mean  =  st.radio("메뉴선택", ["우","수", "민"],index=None)
+    st.write("mean")
 if mean=="우":
         https://cafe.naver.com/culturebloom/2313121
     elif "수":
