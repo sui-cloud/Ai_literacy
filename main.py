@@ -34,9 +34,9 @@ if user_pw=="1234" and user_id=="abc":
         st.image("초록머리앤.jpg")    
         mean  =  st.radio("메뉴선택", ["1:우","2:수", "3:민"],index=None)
         st.write("mean")
-        if "1:우":
+        if mean=="1:우":
             st.image("봄꽃먹기.jpg",width=150)
-        elif "2:수":
+        elif mean=="2:수":
             st.image("갈치한상차림.jpg",width=150)
         elif mean=="3:민":
             st.image("맛있게 웃어요.jpg",width=150)
