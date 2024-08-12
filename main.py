@@ -41,5 +41,5 @@ if user_pw=="1234" and user_id=="abc":
         elif mean=="3:민":
             st.image("맛있게 웃어요.jpg",width=150)
             st.write("수이수이수이수이수이수이수이수이수이수이사랑해사랑해사랑해")
-            st.image("초록머리앤.jpg")    
+              
 
