@@ -3,6 +3,7 @@ import streamlit as st
 import electronic0806 as ec
 import pybasic as pb
 import project as pr
+import merchain as mc
 
 #로그인 화면
 st.sidebar.title("로그인")
