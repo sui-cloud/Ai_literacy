@@ -20,8 +20,8 @@ if user_pw=="1234" and user_id=="abc":
     if menu=="탐색적 분석: 전기자동차":
         ec.elec_exe()
     elif menu=="머신러닝":
-        mc.merchain()
-        #st.header("공사중")    
+        #mc.merchain()
+        st.header("공사중")    
     elif menu=="파이썬기초":
         pb.basic()
     elif menu=="팀별프로젝트":
