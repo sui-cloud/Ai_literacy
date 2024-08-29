@@ -1,9 +1,10 @@
 # 스트림릿은 웹에서 실행된다. 
 import streamlit as st
 import electronic0806 as ec
-import pybasic as pb
-import project as pr
-#import hotelml as mc
+import pybasic as pb #파이썬기초
+import project as pr #각자 프로젝트
+import car_predict as cp
+
 
 #로그인 화면
 st.sidebar.title("로그인")
@@ -20,28 +21,14 @@ if user_pw=="1234" and user_id=="abc":
     if menu=="탐색적 분석: 전기자동차":
         ec.elec_exe()
     elif menu=="머신러닝":
-        #mc.merchain()
-        st.header("공사중")    
+        cp.aiml_main()
+        # st.header("공사중")    
     elif menu=="파이썬기초":
         pb.basic()
     elif menu=="팀별프로젝트":
         pr.main_food()
-    elif menu=="수이는":
-        st.write("수이는 파이썬언어가 어렵지만 열심히 하고 있습니다.")
+    elif menu=="수이는": #파일로 만들어서 호출하기
+        st.write("수이는 파이썬언어가 어렵지만 열심히 하고 있습니다.")  
+        st.image("초록머리앤.jpg") 
 
-        st.write("★○★--------------------------------- ★○★")
-        st.write("우: 우리들은 어쩌면 만날 운명이었는지 모릅니다.")
-        st.write("수: 수많은 연들이 모여서 만나진거겠죠~")
-        st.write("민: 민낯으로 인사드립니다. 수이의 첫 웹입니다. 만나서 반가워요")    
-        st.image("초록머리앤.jpg")    
-        mean  =  st.radio("우수민", ["1:우","2:수", "3:민"],index=None)
-        st.write("mean")
-        if mean=="1:우":
-            st.image("봄꽃먹기.jpg",width=150)
-        elif mean=="2:수":
-            st.image("갈치한상차림.jpg",width=150)
-        elif mean=="3:민":
-            st.image("맛있게 웃어요.jpg",width=150)
-            st.write("사랑만큼 맛있게 먹어요")
-              
 
